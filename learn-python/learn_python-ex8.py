@@ -1,0 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov 29 18:45:21 2018
+
+@author: 612383362
+"""
+
+formatter = "%r %r %r %r"
+
+print(formatter % (1, 2, 3,4))
+print(formatter % ("one", "two", "three", "four"))
+print(formatter % (formatter, formatter, formatter, formatter))
+print(formatter % (
+        "I had this thing.",
+        "That you could type up right.",
+        "But it didn't sing.",
+        "So I said goodnight."
+))
